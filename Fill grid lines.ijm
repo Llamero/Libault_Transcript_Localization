@@ -33,7 +33,7 @@ setBatchMode("hide");
 run("Duplicate...", "title=[No grid]");
 selectWindow("No grid");
 resetMinAndMax();
-run("8-bit");
+//run("8-bit");
 for(radius = min_radius; radius <= max_radius; radius += radius_step){
 	
 }
